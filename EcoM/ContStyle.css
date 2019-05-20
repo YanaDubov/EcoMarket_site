@@ -1,0 +1,15 @@
+div.map{
+    margin: 50px 0 0 50px;
+}
+div.midcol>div{
+    display:inline-block ;
+
+}
+div.info{
+    height: 455px;
+    margin: 20px;
+}
+div.midcol{
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}

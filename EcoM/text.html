@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head >
+    <meta charset="utf-8">
+    <style>
+        body{
+            font: 25px/20px "Courier New", sans-serif;
+        }
+        .phpmethod{
+            margin: 20px;
+        }
+        input[type="text"]{
+            width: 600px;
+            height: 20px;
+            font: 25px/20px "Courier New", sans-serif;
+        }
+        p.iform{
+            margin: 20px;
+            font-size: 25px;
+            display: block;
+        }
+        p{
+            font-size: 25px;
+            display: inline;
+        }
+        h1{
+            margin: 5px;
+            color: red;
+        }
+        .butt{
+            margin: 20px;
+            width:150px;
+            height: 50px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 950px;
+            margin: 0 auto;
+        }
+        .nav{
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            padding-bottom: 10px;
+            padding-top: 20px;
+        }
+        .nav div{
+            margin: 0 20px 0 20px;
+        }
+        a{
+            text-decoration: none;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .form{
+            width: 900px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<div class="form">
+<form action = "Calendar.php" method="GET" class = "phpmethod">
+    <a href="index.php?id=1"> К интернет магазину</a>
+
+    <p class="iform">Курс</p>
+    <input type = "text" name = "class"><br>
+
+    <p class="iform">Год</p>
+    <input type = "text" name = "year"><br>
+
+    <p class="iform">Месяц</p>
+    <input type = "text" name = "month"><br>
+
+    <input  class="butt" type = "submit" value = "отправить">
+
+</form>
+</div>
+<div>
+<div ><div style="background-color: #bed3c3;">Первая неделя</div><br><div style="background-color: #ecc8bd;">Вторая неделя</div><br><div style="background-color: #bbcacc;">Третья неделя</div><br><div style="background-color: #efe5d4;">Четвертая неделя</div><br><div>    <div class="nav">
+        <div>
+           <a href="Calendar.php?class=2&year=2000&month=10"><<<</a>
+        </div>
+        <div>
+            November 2000        </div>
+        <div>
+            <a href="Calendar.php?class=2&year=2000&month=12">>>></a>
+        </div>
+    </div>
+    <div>
+        <table >
+        <tr>
+            <td > Monday</td>
+            <td> Tuesday</td>
+            <td> Wednesday</td>
+            <td> Thursday</td>
+            <td> Friday</td>
+            <td style="color: red; "> Saturday</td>
+            <td style="color: red; "> Sunday</td>
+        </tr>
+        <tr style="background-color: #ecc8bd; "><td>&nbsp;</td><td>&nbsp;</td><td><span style="; "> 1</span></td><td><span style="; "> 2</span></td><td><span style="; "> 3</span></td><td><span style="; "> 4</span></td><td><span style="; "> 5</span></td></tr><tr style="background-color: #bbcacc; "><td><span style="; "> 6</span></td><td><span style="; "> 7</span></td><td><span style="; "> 8</span></td><td><span style="; "> 9</span></td><td><span style="; "> 10</span></td><td><span style="; "> 11</span></td><td><span style="; "> 12</span></td></tr><tr style="background-color: #efe5d4; "><td><span style="; "> 13</span></td><td><span style="; "> 14</span></td><td><span style="; "> 15</span></td><td><span style="; "> 16</span></td><td><span style="; "> 17</span></td><td><span style="; "> 18</span></td><td><span style="; "> 19</span></td></tr><tr style="background-color: #bed3c3; "><td><span style="; "> 20</span></td><td><span style="; "> 21</span></td><td><span style="; "> 22</span></td><td><span style="; "> 23</span></td><td><span style="; "> 24</span></td><td><span style="; "> 25</span></td><td><span style="; "> 26</span></td></tr><tr style="background-color: #ecc8bd; "><td><span style="; "> 27</span></td><td><span style="; "> 28</span></td><td><span style="; "> 29</span></td><td><span style="; "> 30</span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table></div></div>
+</body>
+</html>

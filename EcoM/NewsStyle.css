@@ -1,0 +1,89 @@
+
+
+/*----------Content-------------*/
+
+div.firstnew{
+    width: 300px;
+    margin: 30px 30px 20px 30px;
+    display: inline-block;
+
+}
+.firstnew img{
+    width:300px;
+    margin-bottom: 20px;
+
+}
+.firstnew a, .secondtext a{
+    cursor: pointer;
+    color:#404040;
+    font: 25px/20px 'Open Sans', sans-serif;
+
+}
+div.firsttext{
+    width: 290px;
+    padding: 5px;
+}
+.secondnew img{
+    width:300px;
+    margin-bottom: 20px;
+}
+div.secondnew{
+    margin: 30px 30px 20px 0;
+    position: absolute;
+    width: 300px;
+    display: inline-block;
+}
+div.askform{
+    height: 300px;
+    width: 300px;
+    margin: 30px 30px 20px 0;
+    border: 1px solid #bfbfbf;
+    display: inline-block;
+    float: right;
+
+}
+div.ask{
+    margin: 10px 15px 0 30px;
+}
+p.askp{
+
+    font: 25px/20px 'Open Sans', sans-serif;
+    color:#404040;
+
+}
+input.respbut{
+    margin-top: 25px;
+    font: 20px/20px 'Open Sans', sans-serif;
+    color: white;
+    border-radius: 5px;
+    background-color: #a1c748;
+    padding: 10px 24px;
+}
+.calendar{
+    width: 630px;
+    display: inline-flex;
+    margin: 30px 0 20px 40px;
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    background: #E1E3E0;
+    border-radius: 20px;
+}
+th {
+    font-size: 22px;
+    font-weight: 300;
+    padding: 12px 10px;
+    border-bottom: 2px solid #bfbfbf;
+    color: #F56433;
+}
+tbody tr:nth-child(2) {
+    border-bottom: 2px solid #bfbfbf;
+}
+td {
+    padding: 10px;
+    color: #8D8173;
+}
+

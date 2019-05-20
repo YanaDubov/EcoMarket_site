@@ -1,0 +1,93 @@
+html {
+    font-family: 'Gotham Pro Medium',"DejaVu Sans",sans-serif;
+    color:#404040;
+}
+body {
+    background: #efefef url("background.jpg");
+    margin: 0;
+    padding: 0;
+    font: 16px/20px 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+div{
+    overflow:hidden
+}/* ---------------Шапка ---------------------*/
+header {
+    background: #ffffff;
+    width: 1020px;
+    margin: 0 auto;
+    height: 150px;
+    position: relative;
+}
+div.headlogo{
+    border-bottom:1px solid #bfbfbf;
+}
+div.headlogo img{
+    margin: 20px 30px 10px 0;
+}
+div.headTitle{
+    margin-top: 30px;
+    width: 700px;
+    float: right;
+}
+.headTitle h1{
+    font-size: 40px;
+    color: #404040;
+
+}
+div.mid{
+    width: 1020px;
+    margin: 10px auto 0 auto;
+}
+div.divider{
+    height: 10px;
+    width: 100%;
+}
+.topmenu{
+    display: flex;
+    justify-content: center;
+}
+.topmenu a:first-child{
+    margin-left: 10px;
+}
+.topmenu a{
+    color: #404040;
+    margin: 20px 35px 10px 0;
+    padding-right:45px ;
+    border-right:1px solid #bfbfbf;
+}
+.topmenu a:hover{
+    color: #bfbfbf;
+}
+.topmenu a:last-child {
+    border: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+/*---------------*/
+
+div.midcol{
+    background: #ffffff;
+    width: 1020px;
+    margin: 0 auto;
+    padding-right: 50px;
+}
+/*Footer-------------------------*/
+footer{
+    margin: 0;
+}
+div.midfoot{
+    width: 1020px;
+    height: 70px;
+    margin:0 auto;
+    background: #f5f5f5;
+
+
+}
+.Name{
+    position: absolute;
+    top:15px;
+    left: 800px;
+}
